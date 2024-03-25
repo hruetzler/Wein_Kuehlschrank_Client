@@ -5,15 +5,15 @@
 #include <ArduinoJson.h> 
 #include <PubSubClient.h>
 
-const char* mqtt_server = "sruetzler.de";
+const char* mqtt_server = "mqtt_server";
 const int mqtt_port = 8883;
 bool zustandSchloss = true;
 
 const int LED = D8;
 
 
-const char* mqtt_user = "henri";
-const char* mqtt_password = "Br@hn*6^ZD*kaK";
+const char* mqtt_user = "mqtt_user";
+const char* mqtt_password = "mqtt_password";
 
 JsonDocument daten;
 
